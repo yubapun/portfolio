@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1b79faee.css",
+    "main.js": "/portfolio/static/js/main.e74f2477.js",
+    "static/media/demo.mp4": "/portfolio/static/media/demo.ae00529099363e458a69.mp4",
+    "static/media/Review_Dashboard.png": "/portfolio/static/media/Review_Dashboard.49b63d8a28b778fca9d9.png",
+    "static/media/diabetes_prediction_web.png": "/portfolio/static/media/diabetes_prediction_web.15fa5598d944a22f1b4e.png",
+    "static/media/Professional_Pic.jpg": "/portfolio/static/media/Professional_Pic.671f0badd50d2cbe0f45.jpg",
+    "static/media/prediction_churn.png": "/portfolio/static/media/prediction_churn.4d62897aa7af8a73c458.png",
+    "static/media/smote.png": "/portfolio/static/media/smote.c0ffbdf6170dc1f2dbb9.png",
+    "index.html": "/portfolio/index.html",
+    "main.1b79faee.css.map": "/portfolio/static/css/main.1b79faee.css.map",
+    "main.e74f2477.js.map": "/portfolio/static/js/main.e74f2477.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b79faee.css",
+    "static/js/main.e74f2477.js"
+  ]
+}
