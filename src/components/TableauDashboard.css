@@ -1,0 +1,23 @@
+.tableau-container {
+    margin: 2rem 0;
+    width: 100%;
+  }
+  
+  .tableau-embed {
+    margin-top: 1.5rem;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .tableau-embed iframe {
+    border: none;
+    width: 100%;
+    height: 600px;
+  }
+  
+  @media (max-width: 768px) {
+    .tableau-embed iframe {
+      height: 450px;
+    }
+  }

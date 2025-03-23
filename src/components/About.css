@@ -1,0 +1,129 @@
+/* About Section Styles */
+.about-section {
+    background-color: var(--light-bg);
+  }
+  
+  .about-container {
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .about-bio {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    color: var(--text-color);
+  }
+  
+  .experience-section, .education-section {
+    margin-bottom: 2.5rem;
+  }
+  
+  .experience-section h3, .education-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    position: relative;
+    padding-bottom: 0.8rem;
+  }
+  
+  .experience-section h3:after, .education-section h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+  }
+  
+  .experience-item, .education-item {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--primary-color);
+  }
+  
+  .experience-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-header h4 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-right: 1rem;
+  }
+  
+  .company {
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+  
+  .period {
+    padding: 0.2rem 0.5rem;
+    background-color: rgba(52, 152, 219, 0.1);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+  }
+  
+  .education-item h4 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 0.3rem;
+  }
+  
+  .year {
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+  
+  .about-image {
+    flex: 0 0 35%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    align-self: flex-start;
+    position: sticky;
+    top: 100px;
+  }
+  
+  .about-image img {
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+  }
+  
+  .about-image:hover img {
+    transform: scale(1.03);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 992px) {
+    .about-container {
+      flex-direction: column;
+    }
+    
+    .about-image {
+      order: -1;
+      margin-bottom: 2rem;
+      position: static;
+    }
+  }
+  .experience-description {
+    margin-top: 0.8rem;
+    padding-left: 1.2rem;
+  }
+  
+  .experience-description li {
+    margin-bottom: 0.5rem;
+    color: var(--light-text);
+  }
