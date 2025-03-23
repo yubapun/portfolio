@@ -126,7 +126,7 @@ const Contact = ({ isActive }) => {
         <div className="contact-info">
           <div className="contact-item">
             <h3>Email</h3>
-            <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p><a href="mailto:yubapun@gmail.com">yubapun@gmail.com</a></p>
           </div>
           <div className="contact-item">
             <h3>Location</h3>
