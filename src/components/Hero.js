@@ -1,14 +1,14 @@
 import React from 'react';
 import './Hero.css';
-import selfie from '../image/Professional_Pic.jpg';
+import selfie from '../image/Professional_Pic.jpg'
 
 const Hero = ({ profile, isActive, setActiveSection }) => {
   return (
     <section id="hero" className={`hero-section ${isActive ? 'active' : ''}`}>
       <div className="hero-content">
         <h1>Hello, I'm <span className="highlight">{profile.name}</span></h1>
-        <h2>{profile.title}</h2>
-        <p className="hero-bio">{profile.bio}</p>
+        <h2>Research Assistant & Analytics Professional</h2>
+        {/* Text under the title has been removed */}
         <div className="hero-cta">
           <button 
             className="primary-button"
@@ -28,6 +28,16 @@ const Hero = ({ profile, isActive, setActiveSection }) => {
           >
             Contact Me
           </button>
+          {/* New button to the About page */}
+          <button 
+            className="secondary-button"
+            onClick={() => {
+              setActiveSection('about');
+              document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
+            About Me
+          </button>
         </div>
       </div>
       <div className="hero-image">
@@ -38,3 +48,5 @@ const Hero = ({ profile, isActive, setActiveSection }) => {
 };
 
 export default Hero;
+
+

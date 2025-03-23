@@ -37,6 +37,7 @@
 .hero-cta {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap; /* This helps on mobile devices */
 }
 
 .hero-image {

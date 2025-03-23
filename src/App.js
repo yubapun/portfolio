@@ -87,7 +87,7 @@ function App() {
   const profile = {
     name: "Yuba Raj Pun",
     title: "Research Assistant & Analytics Professional",
-    bio: "I'm currently working as a Research Assistant at Saw Swee Hock School of Public Health - National Unversity of Singapore. I am passionate about turning complex data into actionable insights. With experience in machine learning, data analysis, and data visualization, I help organizations make data-driven decisions that drive business value.",
+    bio: "I hold a bachelor's degree in Management and Digital Innovation and currently serve as a Research Assistant at the Saw Swee Hock School of Public Health. Alongside my academic background, I have cultivated proficiency in a range of technical skills including Python, SQL, Machine Learning, Prompt Engineering, Data Analysis, Microsoft Office, HTML, JavaScript, and CSS. Additionally, I excel in management concepts such as requirement elicitation, Team Collaboration and project planning.I am recognized for my adaptability to emerging trends and my capacity to thrive in diverse, fast-paced environments. As a highly independent and self-motivated individual, I am distinguished by my exceptional organizational abilities and eagerness to acquire new knowledge. I am passionate about turning complex data into actionable insights helping organizations make data-driven decisions that drive business value.",
     experience: [
       {
         role: "Research Assistant",
